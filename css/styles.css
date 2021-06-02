@@ -1,0 +1,162 @@
+h1 {
+font-family: 'Montserrat';
+font-size: 4rem;
+font-weight: 900;
+}
+h2{
+font-family:"Montserrat-Bold";
+font-size:3rem;
+line-height:1.5;
+font-weight: 900;
+}
+h3{
+font-size:1.5rem
+font-weight: 900;
+}
+
+.container-fluid{
+padding: 3% 15% 10%;
+}
+body{
+font-family: 'Montserrat';
+}
+/* navbar */
+.navbar-brand {
+font-family: 'Ubuntu';
+font-size:2.5rem;
+font-weight:bold;
+}
+.navbar {
+padding:0 0 4.5rem;
+}
+.nav-item{
+padding:0px 18px;
+}
+.nav-link{
+font-size: 1.2rem;
+font-family: "Montserrat-Light";
+}
+/*batten*/
+.download-button{
+margin: 5% 3% 5% 0;
+}
+/*title*/
+#title {
+background-color: #ff4c68;
+color: white;
+
+}
+/*title img*/
+.title-img{
+transform: rotate(25deg);
+width: 60%;
+position: absolute;
+right: 25%;
+
+}
+/*section-2*/
+#features{
+padding: 7% 15%;
+text-align: center;
+line-height: 1.5;
+background-color: #fff;
+z-index: 1;
+position: relative;
+}
+
+.colem{
+text-align: center;
+padding-bottom:50px;
+}
+.Features-img{
+color:#B75D5D;
+}
+.Features-img:hover {
+    color: red;
+}
+/*testimonials*/
+#testimonials{
+ padding: 7% 15%;
+ text-align: center;
+ background-color:#659598;
+ color:white;
+}
+
+.testimonials-img{
+width:10%;
+border-radius:100%;
+margin:20px;
+}
+
+.carousel-item{
+padding:7% 15%;
+}
+/*Press*/
+#press{
+background-color:#659598;
+text-align: center;
+padding-bottom: 3%;
+}
+.press-logo{
+ width:15%;
+ margin:20px 20px 50px;
+}
+/*pricing*/
+#pricing{
+font-family:"Montserrat";
+font-weight: 600;
+text-align: center;
+padding:100px;
+}
+.card-header{
+background-color:#B6B8BA;
+}
+.doge-level{
+width:22%;
+border-radius:90%;
+margin:20px;
+}
+#pricing-title{
+font-family:"Ubuntu";
+}
+#pricing-p{
+font-family:"Ubuntu";
+}
+/*cta*/
+#cta{
+background-color: #ff4c68;
+color: white;
+text-align: center;
+}
+#title-cta{
+font-family: 'Ubuntu';
+font-size:3.5rem;
+font-weight:bold;
+padding: 100px 200px 50px;
+}
+.download-button-cta{
+margin:0px 0px 100px;
+}
+/*footer*/
+#footer{
+text-align: center;
+background-color: white;
+padding: 100px 100px 100px 100px;
+}
+.icon-foter{
+padding: 0px 10px;
+}
+
+
+
+
+
+@media (max-width:1028px){
+.title-img{
+position:static;
+transform: rotate(0deg);
+}
+#title{
+text-align: center;
+}
+}
